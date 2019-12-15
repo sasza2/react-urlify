@@ -1,0 +1,51 @@
+{
+  "name": "react-urlify",
+  "version": "1.0.0",
+  "description": "React urlify",
+  "main": "dist/main.js",
+  "keywords": [
+    "react",
+    "url",
+    "urlify"
+  ],
+  "scripts": {
+    "build": "webpack --mode=production",
+    "lint": "eslint src --fix",
+    "storybook": "start-storybook",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasza2/react-urlify.git"
+  },
+  "author": "sasza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sasza2/react-urlify/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@storybook/react": "^5.2.6",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "jest": "^24.9.0",
+    "prop-types": "^15.0.0",
+    "react": "16.9.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.0.0",
+    "react": ">=16.9.0"
+  }
+}

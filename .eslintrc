@@ -1,0 +1,24 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
+  "rules": {
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-filename-extension": 0
+  },
+  "globals": {
+    "console": "false",
+    "expect": "false",
+    "test": "false",
+    "window": "false"
+  },
+  "settings": {
+    "react": {
+      "version": "latest"
+    }
+  },
+  "parser": "babel-eslint"
+}
